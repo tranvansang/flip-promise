@@ -20,7 +20,7 @@ There is only one function from default import
 import flipPromise from 'flip-promise'
 ```
 
-`flipPromise` takes one argument, return a new promise that will be resolved with error rejected by input promise, or be rejected with resolved result from input promise or the promise value itself.
+`flipPromise` takes one argument, return a new promise that will be resolved with error rejected by input promise, or be rejected with resolved result from input promise or the input argument value itself unless the input argument is a promise.
 
 ## Usage example:
 
