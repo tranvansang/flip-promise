@@ -33,3 +33,12 @@ flipPromise(flipPromise(2)).then(console.log) // print 2
 flipPromise(3).catch(console.log) // print 3
 flipPromise(Promise.resolve(4)).catch(console.log) // print 4
 ```
+
+This is useful when writing test to make sure a promise being rejected.
+
+Another example:
+
+```javascript
+const myPromise = Promise.reject(true)
+expect(await flipPromise(myPromise)).to.be.true
+```

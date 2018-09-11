@@ -12,6 +12,14 @@
     "test": "yarn mocha --require @babel/register --require regenerator-runtime/runtime test.js",
     "coverage": "yarn nyc mocha --require @babel/register --require regenerator-runtime/runtime test.js"
   },
+  "keywords": [
+    "promise",
+    "flip",
+    "reverse",
+    "es6",
+    "async",
+    "await"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
