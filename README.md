@@ -1,7 +1,7 @@
 # Flip Promise [![Build Status](https://travis-ci.org/tranvansang/flip-promise.svg?branch=master)](https://travis-ci.org/tranvansang/flip-promise)
 [![NPM](https://nodei.co/npm/flip-promise.png)](https://nodei.co/npm/flip-promise/)
 
-To flip promise returning result
+To flip promise returning result.
 
 ## Install
 
@@ -12,6 +12,15 @@ npm install --save flip-promise
 #or with yarn
 yarn add flip-promise
 ```
+
+## Usage
+There is only one function from default import
+
+```javascript
+import flipPromise from 'flip-promise'
+```
+
+`flipPromise` takes one argument, return a new promise that will be resolved with error rejected by input promise, or be rejected with resolved result from input promise or the promise value itself.
 
 ## Usage example:
 
