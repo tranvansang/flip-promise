@@ -1,4 +1,5 @@
-# Flip Promise
+# Flip Promise [![Build Status](https://travis-ci.org/tranvansang/flip-promise.svg?branch=master)](https://travis-ci.org/tranvansang/flip-promise)
+[![NPM](https://nodei.co/npm/flip-promise.png)](https://nodei.co/npm/flip-promise/)
 
 To flip promise returning result
 
