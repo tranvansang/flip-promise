@@ -1,0 +1,25 @@
+{
+  "name": "flip-promise",
+  "version": "1.0.0",
+  "description": "Flip/Reverse Promise",
+  "main": "index.js",
+  "repository": "https://github.com/tranvansang/flip-promise",
+  "author": "tranvansang",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn babel index.es.js -o index.js",
+    "test": "yarn mocha --require @babel/register --require regenerator-runtime/runtime test.js",
+    "coverage": "yarn nyc mocha --require @babel/register --require regenerator-runtime/runtime test.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
