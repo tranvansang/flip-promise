@@ -1,6 +1,6 @@
 {
   "name": "flip-promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Flip/Reverse Promise",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/flip-promise",
