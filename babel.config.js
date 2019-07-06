@@ -1,8 +1,9 @@
-module.exports = function (api) {
-  api.cache(false)
+module.exports = api => {
+  api.cache(true)
   return {
     presets: [
-      ['@babel/preset-env', {modules: 'commonjs'}]
+      '@babel/preset-env',
+      '@babel/preset-typescript'
     ]
   }
 }

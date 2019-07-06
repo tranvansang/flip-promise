@@ -1,6 +1,6 @@
 {
   "name": "flip-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flip/Reverse Promise",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/flip-promise",
@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "yarn babel index.es.js -o index.js",
-    "test": "yarn mocha --require @babel/register --require regenerator-runtime/runtime test.js",
-    "coverage": "yarn nyc mocha --require @babel/register --require regenerator-runtime/runtime test.js"
+    "build": "yarn tsc",
+    "test": "yarn jest",
+    "coverage": "yarn jest --coverage"
   },
   "keywords": [
     "promise",
@@ -21,13 +21,12 @@
     "await"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/register": "^7.0.0",
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "nyc": "^13.0.1",
-    "regenerator-runtime": "^0.12.1"
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.15",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "regenerator-runtime": "^0.13.2",
+    "typescript": "^3.5.2"
   }
 }
