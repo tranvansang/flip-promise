@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "yarn tsc",
-    "test": "yarn jest",
-    "coverage": "yarn jest --coverage"
+    "build": "tsc",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "keywords": [
     "promise",
