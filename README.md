@@ -1,6 +1,8 @@
 # Flip Promise [![Build Status](https://travis-ci.org/tranvansang/flip-promise.svg?branch=master)](https://travis-ci.org/tranvansang/flip-promise)
 [![NPM](https://nodei.co/npm/flip-promise.png)](https://nodei.co/npm/flip-promise/)
 
+![Codecov block](https://codecov.io/gh/tranvansang/flip-promise/branch/master/graphs/tree.svg)
+
 To flip promise returning result.
 
 ## Install
