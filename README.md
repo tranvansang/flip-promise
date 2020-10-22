@@ -3,7 +3,7 @@
 
 ![Codecov block](https://codecov.io/gh/tranvansang/flip-promise/branch/master/graphs/tree.svg)
 
-To flip promise returning result.
+A package to flip the returned promise.
 
 ## Install
 
