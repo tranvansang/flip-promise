@@ -1,38 +1,32 @@
 {
-  "name": "flip-promise",
-  "version": "1.0.4",
-  "description": "Flip/Reverse Promise",
-  "main": "index.js",
-  "repository": "https://github.com/tranvansang/flip-promise",
-  "author": "tranvansang",
-  "license": "MIT",
-  "private": false,
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "test": "jest",
-    "coverage": "jest --coverage"
-  },
-  "keywords": [
-    "promise",
-    "flip",
-    "reverse",
-    "es6",
-    "async",
-    "await"
-  ],
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-typescript": "^7.3.3",
-    "@types/jest": "^24.0.15",
-    "babel-jest": "^24.8.0",
-    "codecov": "^3.5.0",
-    "jest": "^24.8.0",
-    "regenerator-runtime": "^0.13.2",
-    "typescript": "^3.5.2"
-  }
+	"name": "flip-promise",
+	"version": "1.0.4",
+	"description": "Flip Promise",
+	"main": "index.js",
+	"repository": "https://github.com/tranvansang/flip-promise",
+	"author": "Tran Sang<me@transa.ng>",
+	"license": "MIT",
+	"private": false,
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"index.mjs"
+	],
+	"scripts": {
+		"test": "node test.js"
+	},
+	"exports": {
+		".": {
+			"import": "./index.mjs",
+			"require": "./index.js"
+		}
+	},
+	"keywords": [
+		"promise",
+		"flip",
+		"reverse",
+		"es6",
+		"async",
+		"await"
+	]
 }

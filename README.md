@@ -20,6 +20,8 @@ There is only one function from default import
 
 ```javascript
 import flipPromise from 'flip-promise'
+// or
+const flipPromise = require('flip-promise').default
 ```
 
 `flipPromise` takes one argument, return a new promise that will be resolved with error rejected by input promise, or be rejected with resolved result from input promise or the input argument value itself unless the input argument is a promise.
