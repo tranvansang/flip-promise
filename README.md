@@ -21,6 +21,8 @@ There is only one function from default import
 ```javascript
 import flipPromise from 'flip-promise'
 // or
+const flipPromise = require('flip-promise')
+// or
 const flipPromise = require('flip-promise').default
 ```
 
