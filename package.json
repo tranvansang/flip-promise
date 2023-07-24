@@ -4,7 +4,7 @@
 	"description": "Flip Promise",
 	"main": "index.js",
 	"repository": "https://github.com/tranvansang/flip-promise",
-	"author": "Tran Sang<t@sang.jp>",
+	"author": "Sang Tran<t@sang.jp>",
 	"license": "MIT",
 	"private": false,
 	"files": [
